@@ -7,16 +7,16 @@
   flex-direction: column;
 }
 
-header {
-  background-color: aquamarine;
+.mat-sidenav {
+  width: 270px;
 }
 
-footer {
-  background-color: darkkhaki;
-}
-
-main {
+app-tabela {
   flex: auto;
   background-color: darkseagreen;
   overflow: auto;
+}
+
+mat-toolbar {
+  flex: none;
 }

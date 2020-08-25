@@ -1,11 +1,23 @@
 <mat-sidenav-container>
+
+  <mat-sidenav #snav mode="side">
+    Teste
+  </mat-sidenav>
+
   <mat-sidenav-content>
 
-    <header>Header</header>
-    <main>
-      <app-tabela></app-tabela>
-    </main>
-    <footer>Footer</footer>
+    <mat-toolbar color="primary">
+
+      <button mat-icon-button (click)="snav.toggle()">
+        <mat-icon>menu</mat-icon>
+      </button>
+
+      Toolbar
+    </mat-toolbar>
+
+    <app-tabela></app-tabela>
+
+    <mat-toolbar>Footer</mat-toolbar>
 
   </mat-sidenav-content>
 </mat-sidenav-container>
