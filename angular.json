@@ -123,6 +123,10 @@
               "devServerTarget": "overflow-with-flex:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     }
