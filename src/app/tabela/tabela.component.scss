@@ -1,0 +1,25 @@
+#container {
+  height: 100%;
+  background-color: snow;
+  display: flex;
+  flex-direction: column;
+}
+
+#toolbar {
+  background-color: tomato;
+}
+
+#content {
+  height: 2000px;
+  width: 2000px;
+}
+
+#content-container {
+  flex: 1;
+  background-color: wheat;
+  overflow: auto;
+}
+
+#paginator {
+  background-color: violet;
+}

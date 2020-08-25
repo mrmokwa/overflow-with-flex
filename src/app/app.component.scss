@@ -1,0 +1,22 @@
+.mat-sidenav-container {
+  height: 100%;
+}
+
+.mat-sidenav-content {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: aquamarine;
+}
+
+footer {
+  background-color: darkkhaki;
+}
+
+main {
+  flex: auto;
+  background-color: darkseagreen;
+  overflow: auto;
+}
